@@ -1,0 +1,13 @@
+.Backheader {
+    height: auto;
+    max-width: 100% ;
+}
+body{
+    margin: 0%;
+}
+.appolly {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (opcional) */
+    width: 100%; /* O el tamaño que necesites para tu barra de navegación */
+}
