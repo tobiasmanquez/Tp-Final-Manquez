@@ -1,13 +1,63 @@
-.Backheader {
-    height: auto;
-    max-width: 100% ;
-}
 body{
     margin: 0%;
 }
-.appolly {
-    display: flex; /* Activa Flexbox */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente (opcional) */
-    width: 100%; /* O el tamaño que necesites para tu barra de navegación */
+
+.backround {
+    background-image: url(Imagenes/Backheader.png);
+    margin-top: 0%;
+    }
+
+
+.barraNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 45%;
+    border-radius: 1rem;
+    
 }
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+    color: #000000;
+}
+
+.DOWNLOAD{
+    background-color: #5956E9;
+    border-radius: 0.5rem;
+}
+.appolly {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: aliceblue;
+    border-radius: 1rem;
+    }
+
+
+.img-appolly{
+    height: 100px;
+    width: 100px;
+    }
+
+.appolly img {
+    max-width: 100%; /* Hace que el logo sea responsivo */
+    height: auto;
+    }
+
+.App {
+    background-image: url(Imagenes/Backheader.png);
+}
+
+.footer{
+    background-color: #232233;
+}
+.LETTER{
+ color: aliceblue;
+}
+
