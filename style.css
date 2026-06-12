@@ -1,21 +1,73 @@
-body{
-    margin: 0%;
+body {
+    margin: 0;
 }
 
 .backround {
     background-image: url(Imagenes/Backheader.png);
     margin-top: 0%;
-    }
+}
 
 
-.barraNav{
+
+.FEATURES {
+    background-image: url(Imagenes/Backheader.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.CONTACT {
+    background-color: #232233;
+}
+
+.LETTER {
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.barraNav {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin-top: 4%;
     width: 45%;
     border-radius: 1rem;
-    
+
+}
+
+.Box {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    height: 35vh;
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: 3%;
+    padding: 5%;
+} 
+
+.Box::before {
+    content: "";
+    position: absolute;
+    top: -8%;
+    left: 10%;
+    width: 90%;
+    height: 107%;
+    border: 12px solid rgba(255, 255, 255, 0.18);
+    z-index: -1;
+}
+
+
+.menu {
+    margin-top: 10%;
 }
 
 nav ul {
@@ -27,37 +79,31 @@ nav ul {
     color: #000000;
 }
 
-.DOWNLOAD{
+.DOWNLOAD {
     background-color: #5956E9;
     border-radius: 0.5rem;
 }
+
+
 .appolly {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: aliceblue;
     border-radius: 1rem;
-    }
+    width: auto;
+    height: auto;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
 
 
-.img-appolly{
+.img-appolly {
     height: 100px;
     width: 100px;
-    }
+}
 
 .appolly img {
-    max-width: 100%; /* Hace que el logo sea responsivo */
+    max-width: 100%;
+    /* Hace que el logo sea responsivo */
     height: auto;
-    }
-
-.App {
-    background-image: url(Imagenes/Backheader.png);
 }
-
-.footer{
-    background-color: #232233;
-}
-.LETTER{
- color: aliceblue;
-}
-
