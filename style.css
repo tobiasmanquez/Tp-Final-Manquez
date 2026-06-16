@@ -2,11 +2,19 @@ body {
     margin: 0;
 }
 
-.backround {
+/* SECCIONES */
+
+.HOME {
     background-image: url(Imagenes/Backheader.png);
     margin-top: 0%;
 }
 
+
+.ABOUT {
+    background-color: #ffffff;
+
+
+}
 
 
 .FEATURES {
@@ -15,13 +23,20 @@ body {
     background-position: center;
 }
 
+
+
 .CONTACT {
     background-color: #232233;
+    color: aliceblue
 }
 
-.LETTER {
-    color: aliceblue;
+@media (min-width: 768px) {
+    .HOME, .ABOUT, .FEATURES, .CONTACT 
+    {
+        height: 100vh;
+    }
 }
+
 
 header {
     display: flex;
@@ -30,16 +45,123 @@ header {
     align-items: center;
 }
 
-.barraNav {
+
+
+/* HOME */
+/* NAV Y DOWNLOAD*/
+
+nav {
     display: flex;
     justify-content: center;
+}
+
+.barraNav {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: white;
-    margin-top: 4%;
-    width: 45%;
-    border-radius: 1rem;
+    background-color: White;
+    position: relative;
+    margin: 10px;
+    margin-top: 5%;
+    padding: 6px;
+    border-radius: 3px;
+    width: 95%;
+    height: 3vh;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+    color: #000000;
+}
+
+.sub2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+    color: #000000;
+}
+
+.Download {
+    background-color: #5956E9;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    height: 100%;
+    transform: translateX(370%)
+}
+
+/* LOGO DE LA EMPRESA */
+
+.logo-appolly {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 180%;
+    width: 25%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.logo-appolly img {
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* MENU LISTA */
+
+.menu-lista {
+    justify-content: flex-start;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
 
 }
+
+.Sub1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 160px;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 101;
+    text-align: left;
+}
+
+.Sub1 li a {
+    display: block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    z-index: 100;
+}
+
+.menu-lista:hover + .Sub1, .sub1:hover {
+    display: block
+}
+
+
+
+/* CAJA DE TEXTO "HOME" */
 
 .Box {
     box-sizing: border-box;
@@ -52,7 +174,7 @@ header {
     margin-right: auto;
     margin-left: 3%;
     padding: 5%;
-} 
+}
 
 .Box::before {
     content: "";
@@ -65,45 +187,27 @@ header {
     z-index: -1;
 }
 
-
-.menu {
-    margin-top: 10%;
-}
-
-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 35px;
-    list-style: none;
-    color: #000000;
-}
-
-.DOWNLOAD {
-    background-color: #5956E9;
-    border-radius: 0.5rem;
-}
-
-
-.appolly {
+/* CELU del HOME */
+.Celu-HOME {
+    background-color: transparent;
+    margin: 10% auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
-    border-radius: 1rem;
-    width: auto;
+    margin-top: 20%;
+    overflow: hidden;
+}
+
+.Celu-HOME img {
+    display: block;
+    max-width: 140%;
     height: auto;
-    box-shadow: 1px 1px 1px 1px #000000;
+    margin-left: 60%;
 }
 
 
-.img-appolly {
-    height: 100px;
-    width: 100px;
-}
 
-.appolly img {
-    max-width: 100%;
-    /* Hace que el logo sea responsivo */
-    height: auto;
-}
+/* ABOUT */
+
+
+
