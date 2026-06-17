@@ -192,15 +192,15 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 10%;
     overflow: hidden;
 }
 
 .Celu-HOME img {
     display: block;
-    max-width: 120%;
+    max-width: 115%;
     height: auto;
-    margin-left: 60%;
+    margin-left: 49%;
     transform: translateY(-11px);
 }
 
