@@ -175,11 +175,11 @@ nav ul {
 .Box::before {
     content: "";
     position: absolute;
-    top: -8%;
+    top: -6%;
     left: 10%;
     width: 90%;
     height: 107%;
-    border: 12px solid rgba(255, 255, 255, 0.18);
+    border: 8px solid rgba(255, 255, 255, 0.18);
     z-index: -1;
 }
 
@@ -213,10 +213,8 @@ nav ul {
 @media (min-width: 768px) {
     .HOME, .ABOUT, .FEATURES, .CONTACT 
     {
-        height: 120vh;
+      
     }
-}
-@media (min-width: 768px) {
     .box-celu 
     {
         flex-direction: row ;
@@ -226,6 +224,29 @@ nav ul {
 
 
 /* ABOUT */
+
+.title-about {
+    box-sizing: border-box;
+    height: 28vh;
+    margin-right: auto;
+    margin-left: 6%;
+    padding: 12%;
+    max-width: 600px;
+}
+
+
+
+
+/* FEATURES */
+
+.title-features {
+    box-sizing: border-box;
+    height: 28vh;
+    margin-right: auto;
+    margin-left: 6%;
+    padding: 12%;
+    max-width: 600px
+}
 
 
 
