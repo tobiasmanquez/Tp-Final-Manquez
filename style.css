@@ -206,20 +206,11 @@ nav ul {
 
 .box-celu {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
-@media (min-width: 768px) {
-    .HOME, .ABOUT, .FEATURES, .CONTACT 
-    {
-      
-    }
-    .box-celu 
-    {
-        flex-direction: row ;
-    }
-}
+
+
 
 
 
@@ -234,10 +225,35 @@ nav ul {
     max-width: 600px;
 }
 
+.phone-about{
+     background-color: transparent;
+    margin: 10% auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+
+.phone-about img {
+    display: block;
+    max-width: 74%;
+    height: auto;
+    margin-left: 4%;
+    transform: translateY(-4px);
+}
+
 
 
 
 /* FEATURES */
+
+
+.FEATURES{
+    color: #ffffff;
+}
+
 
 .title-features {
     box-sizing: border-box;
@@ -248,6 +264,62 @@ nav ul {
     max-width: 600px
 }
 
+.phone-features{
+     background-color: transparent;
+    margin: 10% auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+
+.phone-features img {
+    display: block;
+    max-width: 74%;
+    height: auto;
+    margin-left: 4%;
+    transform: translateY(-4px);
+    border-radius: 50px;
+}
+
+
+
+/*TEAM*/
+
+.title-team {
+    box-sizing: border-box;
+    height: 28vh;
+    margin-right: auto;
+    margin-left: 6%;
+    padding: 12%;
+    max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .box-celu 
+    {
+        flex-direction: row ;
+    }
+}
+
+@media (min-width: 1440px) {
+.ABOUT 
+{
+    flex-direction: column;
+}
+
+}
 
 
 
