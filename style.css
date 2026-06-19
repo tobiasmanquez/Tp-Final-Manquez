@@ -277,11 +277,24 @@ nav ul {
 
 .phone-features img {
     display: block;
-    max-width: 74%;
+    max-width: 60%;
     height: auto;
     margin-left: 4%;
-    transform: translateY(-4px);
-    border-radius: 50px;
+    transform: translateY(-1px);
+    border-radius: 65px;
+}
+
+.first-list {
+    margin-top: -5%;
+    display: block;
+    list-style: none;
+}
+
+.second-list{
+    margin-top: 15%;
+    display: block;
+    list-style: none;
+
 }
 
 
@@ -302,25 +315,13 @@ nav ul {
 
 
 
-
-
-
-
 @media (min-width: 768px) {
-    .box-celu 
+    .box-celu, .phone-paragraphs
     {
+        display: flex;
         flex-direction: row ;
     }
 }
-
-@media (min-width: 1440px) {
-.ABOUT 
-{
-    flex-direction: column;
-}
-
-}
-
 
 
 
